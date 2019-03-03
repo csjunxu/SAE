@@ -22,7 +22,7 @@ warning off
 
 % Loading the data
 addpath('library')
-load('ImNet_2_demo_data.mat')
+load('../data_zsl/ImNet_2_demo_data.mat')
 
 %% Dimension reduction
 W    = (X_tr'  * X_tr + 150*eye(size(X_tr'*X_tr)))^(-1)*X_tr'*(Y)  ;

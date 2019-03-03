@@ -18,11 +18,11 @@
 % We used GoogleNet features.
 clc, clear all,  close all
 
-addpath('data_zsl');
+addpath('../data_zsl');
 addpath('library');
 
 %%%%% Load the data
-load('data_zsl/awa_demo_data.mat');
+load('../data_zsl/awa_demo_data.mat');
 X_tr    = NormalizeFea(X_tr')';
 
 
